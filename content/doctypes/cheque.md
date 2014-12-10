@@ -6,7 +6,7 @@ transaction in order to withdraw funds from the sender's account.
 ## Elements and attributes
 
 * Attribute `version`. String.
-* Attribute `instrumentDefinitionID`. Identifier.
+* Attribute `instrumentDefinitionID`. Identifier or Descriptor.
 * Attribute `transactionNum`. Integer. Transaction number that will be 
   closed for the sender.
 * Attribute `notaryID`. Identifier. Notary where the cheque is valid.

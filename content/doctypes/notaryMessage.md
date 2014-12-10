@@ -89,7 +89,7 @@ file contains the **nymID** of the account owner, the notaryID where the
 account is located, the AssetType ID of the account, the balance, and the
 account type. The new account starts with a zero balance.
 
-* Attribute `instrumentDefinitionID`: Identifier. ID of the instrument
+* Attribute `instrumentDefinitionID`: Identifier or Descriptor. ID of the instrument
   definition for the account.
 
 ### registerAccountResponse
@@ -115,14 +115,14 @@ the instrument definition ID. The notary will also load up the public
 credentials for the **nym**, to verify the signature on the instrument
 definition contract.
 
-* Attribute `instrumentDefinitionID`: Identifier. Hash of the `<instrumentDefinition>`.
+* Attribute `instrumentDefinitionID`: Identifier or Descriptor. Hash of the `<instrumentDefinition>`.
 * Element `instrumentDefinition`: Signed [`<instrumentDefinition>`
   document](instrumentDefinition.md)
 
 ### registerInstrumentDefinitionResponse
 
 * Attribute `accountID`: Identifier.
-* Attribute `instrumentDefinitionID`: Identifier. Hash of the `<instrumentDefinition>`.
+* Attribute `instrumentDefinitionID`: Identifier or Descriptor. Hash of the `<instrumentDefinition>`.
 * Element `issuerAccount`: Signed [`<account>` document](account.md).
 
 ----

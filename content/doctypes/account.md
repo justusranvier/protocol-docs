@@ -7,7 +7,7 @@
 * Attribute `accountID`. Identifier.
 * Attribute `nymID`. Identifier.
 * Attribute `notaryID`. Identifier.
-* Attribute `instrumentDefinitionID`. Identifier.
+* Attribute `instrumentDefinitionID`. Identifier or Descriptor.
 * Optional element `stashinfo` (optional)
     * Attribute `cronItemNum`. Integer. Never set anywhere in the old code.
       Probably dead code.
