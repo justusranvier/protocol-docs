@@ -81,7 +81,7 @@ hash of the blockchain's genesis block to an Identifier. This generated
 instrumentDefinitionID is the canonical way by which OT will refer to
 the blockchain.
 
-* Bitcoin: `otxUcSxrtBwmdAjkGL29uqbxd2w46oCrQknc`
+* Bitcoin: `otxMkLjt55ZezBNTVi8NsaJF3oT5ELWL5gTq`
 
 ## Example
 
