@@ -55,7 +55,7 @@ of the instrumentDefinition.
 A federated instrumentDefinition is current if the most recent value of
 the smart property is the hash of the instrumentDefinition.
 
-Federated instrumenDefinitions are mutable because the value of the
+Federated instrumentDefinitions are mutable because the value of the
 smart property can change, but not all changes to the definition are
 considered valid by OT clients.
 
