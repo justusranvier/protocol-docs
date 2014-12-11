@@ -22,7 +22,7 @@ An attribute can have one of these types:
 * **String**: UTF-8-Encoded, Plain-Text character sequence. TODO is it really
     UTF-8-encoded?
 * **Identifier**: Human-readable representation of a hash value.
-* **Descriptor**: Human-readable representation of a colored coin descriptor.
+* **Descriptor**: Human-readable representation of a [colored coin descriptor](https://github.com/Open-Transactions/rfc/blob/master/bips/bip-ccids.mediawiki).
 * **Armored**: _Deflate_-Compressed and Base64-encoded string. May have
     decorative section markers. See [Section Format](encoding/SectionFormat.md).
 
